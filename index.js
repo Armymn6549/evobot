@@ -20,7 +20,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
  */
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`To Obama#2008 Sing`, { type: "LISTENING" });
+  client.user.setActivity(`To gabs#2222 Sing`, { type: "LISTENING" });
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
